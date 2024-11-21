@@ -63,7 +63,7 @@ sections:
     section_id: valores
     title: Nossos Valores
     background_style: bg-dark text-primary
-    last_image: assets/img/timeline-end.png
+    # last_image: assets/img/timeline-end.png
     actions:
       - image: assets/img/portfolio/thumbnails/integrity.jpg # Photo by National Cancer Institute on Unsplash
         title: >+

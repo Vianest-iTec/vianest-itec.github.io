@@ -6,7 +6,7 @@ header:
     Transformamos o cuidado com a saúde através de soluções inteligentes e personalizadas, feitas para atender às necessidades do setor médico.
   action: # action button is optional
     label: Saiba Mais
-    url: '#about'
+    url: '#sobre'
 
 sections:
   - type: call-to-action.html
@@ -15,8 +15,8 @@ sections:
     title: Quem Somos
     text: Somos líderes no desenvolvimento de soluções médicas para hospitais, clínicas e profissionais de saúde, combinando tecnologia de ponta e excelência em atendimento.
     actions:
-      - title: Conheça Nossa História
-        url: '#historia'
+      - title: Conheça Nossas Soluções
+        url: '#solucoes'
         class: btn-light
 
   - type: services.html

@@ -41,7 +41,11 @@ sections:
     section_id: parceiros
     title: Parceiros
     background_style: bg-info text-white
-    members: 
+    members:
+      - title: Vianest
+        text: Clínica de Anestesiologia e Atenção Perioperatória
+        image: assets/img/members/vianest.png
+        url: "https://www.instagram.com/equipe_vianest/"
       - title: FURG
         text: Universidade Federal do Rio Grande
         image: assets/img/members/furg.png

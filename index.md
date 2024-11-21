@@ -1,160 +1,108 @@
 ---
 layout: home
 header:
-  title: YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES
+  title: INOVAÇÃO E TECNOLOGIA EM SOLUÇÕES MÉDICAS
   text: >
-    Start Bootstrap can help you build better websites using the Bootstrap
-    framework! Just download a theme and start customizing, no strings attached!
+    Transformamos o cuidado com a saúde através de soluções inteligentes e personalizadas, feitas para atender às necessidades do setor médico.
   action: # action button is optional
-    label: Find Out More
-    url: '#about'
-
+    label: Saiba Mais
+    url: '#sobre'
 
 sections:
   - type: call-to-action.html
-    section_id: about
+    section_id: sobre
     background_style: bg-primary
-    title: We've got what you need!
-    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
+    title: Quem Somos
+    text: Somos líderes no desenvolvimento de soluções médicas para hospitais, clínicas e profissionais de saúde, combinando tecnologia de ponta e excelência em atendimento.
     actions:
-      - title: Get Started!
-        url: '#page-top'
+      - title: Conheça Nossos Valores
+        url: '#valores'
         class: btn-light
 
   - type: services.html
-    section_id: services
+    section_id: solucoes
     #background_style: bg-info
-    title: At Your Service
+    title: Nossas Soluções
     services:
-      - title: Sturdy Templates
-        text: Our templates are updated regularly so they don't break.
-        icon: bi-gem text-info
-        url: https://startbootstrap.com/
-      - title: Ready to Ship
-        text: You can use this theme as is, or you can make changes!
-        icon: bi-rocket-takeoff
-      - title: Up to Date
-        text: We update dependencies to keep things fresh.
-        icon: bi-activity
-      - title: Made with Love
-        text: You have to make your websites with love these days!
-        icon: bi-heart-fill
-      - title: Other 1
-        text: Some not-so long text here.
-        icon: bi-emoji-heart-eyes
-      - title: Other 2
-        text: Some not-so long text here.
-        icon: bi-emoji-sunglasses-fill
-
-  - type: portfolio.html
-    # this section has always ID 'portfolio'
-    #section_id: portfolio
-    #background_style: bg-dark
-    projects:
-      - title: Project 1
-        text: This is a very short project description.
-        # the images are located in:
-        # img/portfolio/fullsize
-        # img/portfolio/thumbnails
-        icon: 1.jpg
-        url: '#'
-      - title: Project 2
-        text: This is a very short project description.
-        icon: 2.jpg
-        url: '#'
-      - title: Project 3
-        text: This is a very short project description.
-        icon: 3.jpg
-        url: '#'
-      - title: Project 4
-        text: This is a very short project description.
-        icon: 4.jpg
-        url: '#'
-      - title: Project 5
-        text: This is a very short project description.
-        icon: 5.jpg
-        url: '#'
-      - title: Project 6
-        text: This is a very short project description.
-        icon: 6.jpg
-        url: '#'
-
-  - type: aside.html
-    section_id: aside
-    title: Free Download at Start Bootstrap!
-    actions:
-      - title: Download Now!
-        url: https://startbootstrap.com/themes/creative/
-        class: btn-light
+      - title: Sistemas de Gestão para Saúde
+        text: Softwares que otimizam processos e aumentam a eficiência administrativa.
+        icon: bi-layout-text-window-reverse
+      - title: Telemedicina
+        text: Soluções práticas e seguras para atendimento remoto.
+        icon: bi-camera-video
+      - title: Manutenção e Suporte Técnico
+        text: Garantia de funcionamento e atualizações constantes.
+        icon: bi-tools
+      - title: Consultoria e Treinamento
+        text: Capacitação profissional e suporte especializado.
+        icon: bi-person-lines-fill
 
   - type: members.html
-    section_id: members
-    title: Our Crew!
+    section_id: parceiros
+    title: Parceiros
     background_style: bg-info text-white
     members:
-      - title: Christina M. Aponte
-        text: Singer and Songwriter
-        image: assets/img/members/person1.jpg
-        url: '#'
-      - title: Gary D. Stevens
-        text: Bass guitar.
-        image: assets/img/members/person2.jpg
-        url: '#'
-      - title: Devon J. Fletcher
-        text: Lead guitar.
-        image: assets/img/members/person3.jpg
-        url: '#'
-      - title: Todd E. Anderson
-        text: Drums, percussion.
-        image: assets/img/members/person5.jpg
-        url: '#'
-      - title: Daniel T. Riley
-        text: Musician, songwriter, producer.
-        image: assets/img/members/person6.jpg
-        url: '#'
-      - title: Ella P. Walter
-        text: PR.
-        image: assets/img/members/person7.jpg
-        url: '#'
+      - title: Vianest
+        text: Clínica de Anestesiologia e Atenção Perioperatória
+        image: assets/img/members/vianest.png
+        url: "https://www.instagram.com/equipe_vianest/"
+      - title: FURG
+        text: Universidade Federal do Rio Grande
+        image: assets/img/members/furg.png
+        url: "https://furg.br"
+      - title: iTec
+        text: Centro de Robótica e Ciência de Dados
+        image: assets/img/members/itec.png
+        url: "https://itecfurg.org/"
+      - title: Sebrae
+        text: Serviço Brasileiro de Apoio às Micro e Pequenas Empresas
+        image: assets/img/members/sebrae.png
+        url: "https://sebrae.com.br"
+      - title: EMBRAPII
+        text: Empresa Brasileira de Pesquisa e Inovação Industrial
+        image: assets/img/members/embrapii.png
+        url: "https://embrapii.org.br"
 
   - type: timeline.html
-    section_id: timeline
-    title: Major Achievements!
+    section_id: valores
+    title: Nossos Valores
     background_style: bg-dark text-primary
-    last_image: assets/img/timeline-end.png
+    # last_image: assets/img/timeline-end.png
     actions:
-      - image: assets/img/portfolio/thumbnails/1.jpg
+      - image: assets/img/portfolio/thumbnails/integrity.jpg # Photo by National Cancer Institute on Unsplash
         title: >+
-          2017-2018
-          **Humble Beginnings**
+          **Ética e Responsabilidade**
         text: >-
-          We begun with small group of people willing to work hard and make our
-          teaching skills worth , in front of all others!
-      - image: assets/img/portfolio/thumbnails/2.jpg
+          Atuamos com integridade em todas as nossas ações, garantindo transparência e respeito aos nossos clientes e parceiros.
+      - image: assets/img/portfolio/thumbnails/innovation.jpg # Photo by benjamin lehman on Unsplash
         title: >+
-          November 2019
-          An Coaching started
+          **Inovação Contínua**
         text: >-
-          We started to gather like minded people and started our stategies
-          and future plans to them. As a result , interested people joined us!
+          Investimos em tecnologia e ideias disruptivas para criar soluções que impactam positivamente o setor de saúde.
+      - image: assets/img/portfolio/thumbnails/teamwork.jpg # Photo by Luis Melendez on Unsplash
+        title: >+
+          **Trabalho em Equipe**
+        text: >-
+          Acreditamos que a colaboração e o esforço conjunto são a chave para alcançar grandes resultados.
+      - image: assets/img/portfolio/thumbnails/customer-focus.jpg # Photo by Accuray on Unsplash
+        title: >+
+          **Foco no Cliente**
+        text: >-
+          Estamos comprometidos em atender às necessidades específicas de cada cliente, com soluções personalizadas e suporte dedicado.
 
   - type: contact.html
-    section_id: contacts
-    title: Let's Get In Touch!
+    section_id: contatos
+    title: Fale Conosco
     text: >-
-      Ready to start your next project with us? Give us a call or send us an email
-      and we will get back to you as soon as possible!
+      Precisa de mais informações ou deseja saber como nossas soluções podem ajudar sua empresa? Entre em contato com a gente!
     actions:
-    - title: +1 (202) 555-014
-      icon: bi-telephone-fill
-    - title: E-Mail
-      icon: bi-envelope-fill
-      url: mailto:contact@yourwebsite.com
-    - title: Twitter
-      icon: bi-twitter
-      url: '#'
-    - title: Facebook
-      icon: bi-facebook
-      url: '#'
+      - title: (11) 91234-5678
+        icon: bi-telephone-fill
+      - title: E-mail
+        icon: bi-envelope-fill
+        url: mailto:contato@insaightsolucoes.com
+      - title: Website
+        icon: bi-globe
+        url: 'https://insaightsolucoes.com.br'
 
 ---

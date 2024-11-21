@@ -24,8 +24,8 @@ sections:
     #background_style: bg-info
     title: Nossas Soluções
     services:
-      - title: Sistemas de Gestão para Saúde
-        text: Softwares que otimizam processos e aumentam a eficiência administrativa.
+      - title: Soluções Inteligentes
+        text: Desenvolvemos chatbots baseados em inteligência artificial que oferecem suporte automatizado e personalizado para pacientes no pré, intra e pós-operatório.
         icon: bi-layout-text-window-reverse
       - title: Telemedicina
         text: Soluções práticas e seguras para atendimento remoto.
@@ -33,9 +33,9 @@ sections:
       - title: Manutenção e Suporte Técnico
         text: Garantia de funcionamento e atualizações constantes.
         icon: bi-tools
-      - title: Consultoria e Treinamento
-        text: Capacitação profissional e suporte especializado.
-        icon: bi-person-lines-fill
+      - title: Comunicação Ágil
+        text: As plataformas permitem que pacientes tirem dúvidas frequentes em tempo real, reduzindo a carga administrativa das equipes de saúde.
+        icon: bi-chat-left-dots
 
   - type: members.html
     section_id: parceiros

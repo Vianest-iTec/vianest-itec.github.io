@@ -65,7 +65,7 @@ sections:
     text: >-
       Precisa de mais informações ou deseja saber como nossas soluções podem ajudar sua empresa? Entre em contato com a gente!
     actions:
-      - title: +55 (11) 1234-5678
+      - title: (11) 91234-5678
         icon: bi-telephone-fill
       - title: E-mail
         icon: bi-envelope-fill

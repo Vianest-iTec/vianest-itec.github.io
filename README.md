@@ -6,6 +6,55 @@ An attractive one page Bootstrap theme perfect for creative portfolios and busin
 
 Based on Creative Theme v7.0.7 and Bootstrap v5.2.3.
 
+## How to Run This Project
+
+To run this project, follow these steps:
+
+### Install Ruby and Jekyll
+
+If you are using Windows, it is recommended to use Windows Subsystem for Linux (WSL) to install Ruby and Jekyll. Follow the [Jekyll installation documentation](https://jekyllrb.com/docs/installation/ubuntu/) to install Ruby and Jekyll on your WSL or Ubuntu system.
+
+### Install Mise-en-Place
+
+Follow the [Mise-en-Place documentation](https://mise.jdx.dev/getting-started.html) to install Mise-en-Place.
+
+### Clone the Repository
+
+Clone the repository to your local machine:
+
+```sh
+git clone https://github.com/vianest-itec/vianest-itec.github.io.git
+cd vianest-itec.github.io
+```
+
+### Use Ruby 3.1.3
+
+To resolve an issue with the latest version of Ruby and some dependencies of this template, switch to Ruby version 3.1.3 by running the following command in the project directory:
+
+```sh
+mise use ruby@3.1.3
+```
+
+This decision is due to an error with the newest version of Ruby and some of this template's dependencies. For more details, see [this issue](https://github.com/jekyll/jekyll/issues/9233). However, this site will work fine on GitHub Pages.
+
+### Install Dependencies
+
+Install the required dependencies using Bundler:
+
+```sh
+bundle install
+```
+
+### Serve the Site
+
+Serve the site locally:
+
+```sh
+bundle exec jekyll serve
+```
+
+Open your browser and navigate to `http://localhost:4000` to view the site.
+
 ## To use the Creative Theme template in your project
 
 Creating a site with this particular Jekyll theme, is basically writing a markdown site.

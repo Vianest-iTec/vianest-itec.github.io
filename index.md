@@ -15,8 +15,8 @@ sections:
     title: Quem Somos
     text: Somos líderes no desenvolvimento de soluções médicas para hospitais, clínicas e profissionais de saúde, combinando tecnologia de ponta e excelência em atendimento.
     actions:
-      - title: Conheça Nossas Soluções
-        url: '#solucoes'
+      - title: Conheça Nossos Valores
+        url: '#valores'
         class: btn-light
 
   - type: services.html
@@ -58,6 +58,33 @@ sections:
         text: Empresa Brasileira de Pesquisa e Inovação Industrial
         image: assets/img/members/embrapii.png
         url: "https://embrapii.org.br"
+
+  - type: timeline.html
+    section_id: valores
+    title: Nossos Valores
+    background_style: bg-dark text-primary
+    last_image: assets/img/timeline-end.png
+    actions:
+      - image: assets/img/portfolio/thumbnails/integrity.jpg # Photo by National Cancer Institute on Unsplash
+        title: >+
+          **Ética e Responsabilidade**
+        text: >-
+          Atuamos com integridade em todas as nossas ações, garantindo transparência e respeito aos nossos clientes e parceiros.
+      - image: assets/img/portfolio/thumbnails/innovation.jpg # Photo by benjamin lehman on Unsplash
+        title: >+
+          **Inovação Contínua**
+        text: >-
+          Investimos em tecnologia e ideias disruptivas para criar soluções que impactam positivamente o setor de saúde.
+      - image: assets/img/portfolio/thumbnails/teamwork.jpg # Photo by Luis Melendez on Unsplash
+        title: >+
+          **Trabalho em Equipe**
+        text: >-
+          Acreditamos que a colaboração e o esforço conjunto são a chave para alcançar grandes resultados.
+      - image: assets/img/portfolio/thumbnails/customer-focus.jpg # Photo by Accuray on Unsplash
+        title: >+
+          **Foco no Cliente**
+        text: >-
+          Estamos comprometidos em atender às necessidades específicas de cada cliente, com soluções personalizadas e suporte dedicado.
 
   - type: contact.html
     section_id: contatos

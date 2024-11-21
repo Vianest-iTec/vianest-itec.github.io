@@ -1,5 +1,5 @@
 # Site settings
-title: InsAIght Soluções Médicas
+title: InsAIght
 description: > # this means to ignore newlines until "baseurl:"
 repository: Vianest-iTec/vianest-itec.github.io
 baseurl: "" # the subpath of your site, e.g. /blog/

@@ -13,7 +13,7 @@ sections:
     section_id: sobre
     background_style: bg-primary
     title: Quem Somos
-    text: Somos líderes no desenvolvimento de soluções médicas para hospitais, clínicas e profissionais de saúde, combinando tecnologia de ponta e excelência em atendimento.
+    text: A InsAIght Medtech Soluções Médicas é uma empresa especializada no desenvolvimento de soluções digitais avançadas voltadas para o setor de saúde, com foco específico no suporte ao período perioperatório. Nossa missão é transformar a jornada cirúrgica de pacientes e equipes de saúde, promovendo uma comunicação eficiente, engajamento contínuo e maior segurança por meio de tecnologia de ponta.
     actions:
       - title: Conheça Nossos Valores
         url: '#valores'
@@ -24,8 +24,8 @@ sections:
     #background_style: bg-info
     title: Nossas Soluções
     services:
-      - title: Sistemas de Gestão para Saúde
-        text: Softwares que otimizam processos e aumentam a eficiência administrativa.
+      - title: Soluções Inteligentes
+        text: Desenvolvemos chatbots baseados em inteligência artificial que oferecem suporte automatizado e personalizado para pacientes no pré, intra e pós-operatório.
         icon: bi-layout-text-window-reverse
       - title: Telemedicina
         text: Soluções práticas e seguras para atendimento remoto.
@@ -33,9 +33,9 @@ sections:
       - title: Manutenção e Suporte Técnico
         text: Garantia de funcionamento e atualizações constantes.
         icon: bi-tools
-      - title: Consultoria e Treinamento
-        text: Capacitação profissional e suporte especializado.
-        icon: bi-person-lines-fill
+      - title: Comunicação Ágil
+        text: As plataformas permitem que pacientes tirem dúvidas frequentes em tempo real, reduzindo a carga administrativa das equipes de saúde.
+        icon: bi-chat-left-dots
 
   - type: members.html
     section_id: parceiros
@@ -96,13 +96,16 @@ sections:
     text: >-
       Precisa de mais informações ou deseja saber como nossas soluções podem ajudar sua empresa? Entre em contato com a gente!
     actions:
-      - title: (11) 91234-5678
+      - title: (51) 98531-5045
         icon: bi-telephone-fill
       - title: E-mail
         icon: bi-envelope-fill
-        url: mailto:contato@insaightsolucoes.com
-      - title: Website
-        icon: bi-globe
-        url: 'https://insaightsolucoes.com.br'
+        url: mailto:andreinakagawa@gmail.co
+      - title: Instagram
+        icon: bi-instagram
+        url: 'https://www.instagram.com/equipe_vianest/'
+      - title: Rua Ramiro Barcelos 1450 Apto 701, Rio Branco, Porto Alegre RS, CEP 90035-002
+        icon: bi-geo-alt-fill
+        url: 'https://maps.app.goo.gl/gsgmCT4ENjhUSP5Y8'
 
 ---

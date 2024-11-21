@@ -13,7 +13,7 @@ sections:
     section_id: sobre
     background_style: bg-primary
     title: Quem Somos
-    text: Somos líderes no desenvolvimento de soluções médicas para hospitais, clínicas e profissionais de saúde, combinando tecnologia de ponta e excelência em atendimento.
+    text: A InsAIght Medtech Soluções Médicas é uma empresa especializada no desenvolvimento de soluções digitais avançadas voltadas para o setor de saúde, com foco específico no suporte ao período perioperatório. Nossa missão é transformar a jornada cirúrgica de pacientes e equipes de saúde, promovendo uma comunicação eficiente, engajamento contínuo e maior segurança por meio de tecnologia de ponta.
     actions:
       - title: Conheça Nossos Valores
         url: '#valores'

@@ -96,13 +96,16 @@ sections:
     text: >-
       Precisa de mais informações ou deseja saber como nossas soluções podem ajudar sua empresa? Entre em contato com a gente!
     actions:
-      - title: (11) 91234-5678
+      - title: (51) 98531-5045
         icon: bi-telephone-fill
       - title: E-mail
         icon: bi-envelope-fill
-        url: mailto:contato@insaightsolucoes.com
-      - title: Website
-        icon: bi-globe
-        url: 'https://insaightsolucoes.com.br'
+        url: mailto:andreinakagawa@gmail.co
+      - title: Instagram
+        icon: bi-instagram
+        url: 'https://www.instagram.com/equipe_vianest/'
+      - title: Rua Ramiro Barcelos 1450 Apto 701, Rio Branco, Porto Alegre RS, CEP 90035-002
+        icon: bi-geo-alt-fill
+        url: 'https://maps.app.goo.gl/gsgmCT4ENjhUSP5Y8'
 
 ---

@@ -1,9 +1,10 @@
 ---
 layout: home
 header:
-  title: INOVAÇÃO E TECNOLOGIA EM SOLUÇÕES MÉDICAS
+  title: IMPACTANDO A SAÚDE COM INTELIGÊNCIA ARTIFICIAL
   text: >
-    Transformamos o cuidado com a saúde através de soluções inteligentes e personalizadas, feitas para atender às necessidades do setor médico.
+    Uma nova era de avaliações pré-operatórias.<br>
+    Mais segurança, eficiência e insights baseados em dados.
   action: # action button is optional
     label: Saiba Mais
     url: '#sobre'
@@ -40,7 +41,7 @@ sections:
   - type: members.html
     section_id: parceiros
     title: Parceiros
-    background_style: bg-info text-white
+    background_style: bg-dark text-white
     members:
       - title: Vianest
         text: Clínica de Anestesiologia e Atenção Perioperatória
@@ -66,7 +67,7 @@ sections:
   - type: timeline.html
     section_id: valores
     title: Nossos Valores
-    background_style: bg-dark text-primary
+    background_style: bg-light text-primary
     # last_image: assets/img/timeline-end.png
     actions:
       - image: assets/img/portfolio/thumbnails/integrity.jpg # Photo by National Cancer Institute on Unsplash
@@ -93,6 +94,7 @@ sections:
   - type: contact.html
     section_id: contatos
     title: Fale Conosco
+    background_style: bg-dark text-white
     text: >-
       Precisa de mais informações ou deseja saber como nossas soluções podem ajudar sua empresa? Entre em contato com a gente!
     actions:

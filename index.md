@@ -100,12 +100,10 @@ sections:
         icon: bi-telephone-fill
       - title: E-mail
         icon: bi-envelope-fill
-        url: mailto:andreinakagawa@gmail.co
+        url: mailto:contato@insaightmedtech.com
       - title: Instagram
         icon: bi-instagram
         url: 'https://www.instagram.com/equipe_vianest/'
-      - title: Rua Ramiro Barcelos 1450 Apto 701, Rio Branco, Porto Alegre RS, CEP 90035-002
-        icon: bi-geo-alt-fill
-        url: 'https://maps.app.goo.gl/gsgmCT4ENjhUSP5Y8'
+
 
 ---

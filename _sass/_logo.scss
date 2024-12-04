@@ -1,0 +1,9 @@
+.navbar-logo {
+    height: 3rem;
+}
+
+@media (min-width: 992px) {
+    #mainNav:not(.navbar-shrink) .navbar-logo {
+        filter: saturate(0) brightness(100);
+    }
+}

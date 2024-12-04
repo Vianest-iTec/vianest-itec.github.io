@@ -1,11 +1,13 @@
 # Site settings
 title: InsAIght
 logo: assets/img/insaight.png # optional
+tagline: Impactando a Saúde com Inteligência Artificial
 description: > # this means to ignore newlines until "baseurl:"
+  Uma nova era de avaliações pré-operatórias. Mais segurança, eficiência e insights baseados em dados.
 repository: Vianest-iTec/vianest-itec.github.io
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://vianest-itec.github.io" # the base hostname & protocol for your site
-author: Copyright &copy; 2019 - Start Bootstrap
+url: "https://insaightmedtech.com/" # the base hostname & protocol for your site
+author: Copyright &copy; 2024-2024 InsAIght Medtech Soluções Médicas LTDA
 lang: pt_BR
 
 # Build settings

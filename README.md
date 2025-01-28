@@ -35,6 +35,11 @@ Just run `./build-in-docker.sh` and then point your browser to [http://localhost
 
 ### Option 2: Running Locally
 
+#### Requirements
+   - [**Ruby**](https://jekyllrb.com/docs/installation/ubuntu/)
+   - [**Jekyll**](https://jekyllrb.com/docs/installation/ubuntu/)
+   - [**Mise-en-place**](https://mise.jdx.dev/getting-started.html#_1-install-mise-cli)
+
 Follow these steps to run the project locally:
 
 1. **Install Ruby and Jekyll**

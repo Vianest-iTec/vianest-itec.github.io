@@ -14,13 +14,14 @@ fi
 if [ -z "$1" ]; then
   docker pull jekyll/builder:pages
   docker run -it --rm \
+    --entrypoint "" \
     --workdir /srv/jekyll \
     --volume "$HOST_PWD:/srv/jekyll" \
     --volume "$HOST_PWD/vendor/bundle:/usr/local/bundle" \
     --publish 4000:4000 \
     --publish 4001:4001 \
     jekyll/builder:pages \
-    ./build-in-docker.sh build
+    sh ./build-in-docker.sh build
 else
   bundle install --jobs=4
   bundle exec jekyll serve \

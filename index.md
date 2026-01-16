@@ -18,7 +18,11 @@ sections:
     actions:
       - title: Conheça Nossos Valores
         url: '#valores'
-        class: btn-light
+
+  - type: embed-video.html
+    section_id: video
+    title: Assista ao Vídeo
+    video_url: https://drive.google.com/file/d/1_dR6PgWoP1krUWtSleHvuryxPSe262YW/preview
 
   - type: services.html
     section_id: solucoes

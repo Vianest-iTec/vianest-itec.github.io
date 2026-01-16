@@ -11,6 +11,8 @@ else
   HOST_PWD="$(pwd)"
 fi
 
+mkdir -p vendor/bundle
+
 if [ -z "$1" ]; then
   docker pull jekyll/builder:pages
   docker run -it --rm \

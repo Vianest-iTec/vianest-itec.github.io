@@ -5,6 +5,8 @@
 header:
 - title: Sobre
   url: /#sobre
+- title: Vídeo
+  url: /#video
 - title: Soluções
   url: /#solucoes
 - title: Parceiros

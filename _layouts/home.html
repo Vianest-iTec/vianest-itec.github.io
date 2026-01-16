@@ -14,6 +14,11 @@ layout: base
                 {% if page.header.action %}
                 <a class="btn btn-primary btn-xl" href="{{ page.header.action.url }}">{{ page.header.action.label }}</a>
                 {% endif %}
+                {% if page.header.actions %}
+                {% for action in page.header.actions %}
+                <a class="btn btn-primary btn-xl" href="{{ action.url }}">{{ action.label }}</a>
+                {% endfor %}
+                {% endif %}
             </div>
         </div>
     </div>

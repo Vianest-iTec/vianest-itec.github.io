@@ -33,6 +33,28 @@ If you want to use this template or enhance it, you can choose between using Doc
 
 Just run `./build-in-docker.sh` and then point your browser to [http://localhost:4000/](http://localhost:4000/).
 
+#### First-time setup
+
+Make sure the Docker helper script is executable:
+
+```sh
+chmod +x build-in-docker.sh
+```
+
+If the repository was cloned or edited on **Windows**, also ensure the file uses Unix line endings:
+
+```sh
+sed -i 's/\r$//' build-in-docker.sh
+```
+
+Why this is needed:
+
+- `chmod +x` ensures the script can be executed on Linux/WSL and inside Docker.
+
+- Windows CRLF line endings can make shell scripts fail when run in Linux containers, resulting in errors like `/bin/sh^M: bad interpreter`.
+
+*These commands only need to be run once.*
+
 ### Option 2: Running Locally
 
 #### Requirements

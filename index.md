@@ -5,9 +5,11 @@ header:
   text: >
     Uma nova era de avaliações pré-operatórias.<br>
     Mais segurança, eficiência e insights baseados em dados.
-  action: # action button is optional
-    label: Saiba Mais
-    url: '#sobre'
+  actions:
+    - label: Saiba Mais
+      url: '#sobre'
+    - label: Ver Vídeo
+      url: '#video'
 
 sections:
   - type: call-to-action.html
@@ -18,7 +20,11 @@ sections:
     actions:
       - title: Conheça Nossos Valores
         url: '#valores'
-        class: btn-light
+
+  - type: embed-video.html
+    section_id: video
+    title: Assista ao Vídeo
+    video_url: https://drive.google.com/file/d/1_dR6PgWoP1krUWtSleHvuryxPSe262YW/preview
 
   - type: services.html
     section_id: solucoes

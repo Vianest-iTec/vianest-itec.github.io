@@ -14,7 +14,8 @@ fi
 mkdir -p vendor/bundle
 
 if [ -z "$1" ]; then
-  docker pull jekyll/builder:pages
+  docker pull jekyll/builder:4
+
   docker run -it --rm \
     --entrypoint "" \
     --workdir /srv/jekyll \
@@ -22,9 +23,11 @@ if [ -z "$1" ]; then
     --volume "$HOST_PWD/vendor/bundle:/usr/local/bundle" \
     --publish 4000:4000 \
     --publish 4001:4001 \
-    jekyll/builder:pages \
+    jekyll/builder:4 \
     sh ./build-in-docker.sh build
 else
+  set -x
+
   bundle install \
     --jobs=4 \
     --retry=3 \

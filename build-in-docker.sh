@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-if command -v pwd >/dev/null 2>&1 && pwd -W >/dev/null 2>&1; then
+if pwd -W >/dev/null 2>&1; then
   # Git Bash / Windows
   HOST_PWD="$(pwd -W)"
   export MSYS_NO_PATHCONV=1

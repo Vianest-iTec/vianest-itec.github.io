@@ -23,7 +23,11 @@ if [ -z "$1" ]; then
     jekyll/builder:pages \
     sh ./build-in-docker.sh build
 else
-  bundle install --jobs=4
+  bundle install \
+    --jobs=4 \
+    --retry=3 \
+    --verbose
+
   bundle exec jekyll serve \
     -H 0.0.0.0 \
     --trace \

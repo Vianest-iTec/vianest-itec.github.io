@@ -24,7 +24,7 @@ sections:
   - type: embed-video.html
     section_id: video
     title: Assista ao Vídeo
-    video_url: https://drive.google.com/file/d/1_dR6PgWoP1krUWtSleHvuryxPSe262YW/preview
+    video_url: https://imt-static-files.s3.us-east-1.amazonaws.com/insaight-trailer.mp4
 
   - type: services.html
     section_id: solucoes
